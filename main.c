@@ -54,7 +54,7 @@ UINT_PTR HashString(LPVOID string, BOOL isWide)
     
     do
     {   
-        UCHAR c = *Ptr;  // ← UCHAR, não PUCHAR
+        UCHAR c = *Ptr;  
 
         if (!*Ptr && !isWide)
         {
